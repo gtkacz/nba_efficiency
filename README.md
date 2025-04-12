@@ -208,5 +208,38 @@ All data belongs to Sports Reference and was fetched and used in compliance with
 | Isaiah Thomas         | 2016-17 |     31.8 |    7.3 |
 | Michael Jordan        | 1990-91 |     32   |    7.1 |
 
+# Least efficient
+For frame of reference (and fun), these are the 10 least statistically efficient 30 PPG seasons
+
+## Per Game
+
+| Player            | Year    |   PTS |   eFG% |   TS% |   eFG+% |   TS+% |   reFG% |   rTS% |
+|:------------------|:--------|------:|-------:|------:|--------:|-------:|--------:|-------:|
+| Jerry Stackhouse  | 2000-01 |  29.8 |   44.5 |  52.1 |    94   |  100.6 |    -2.8 |    0.3 |
+| Allen Iverson     | 2001-02 |  31.4 |   42.2 |  48.9 |    88.4 |   94   |    -5.5 |   -3.1 |
+| Pete Maravich     | 1976-77 |  31.1 |   43.3 |  49.2 |    93.1 |   96.2 |    -3.2 |   -1.9 |
+| Dominique Wilkins | 1985-86 |  30.3 |   47.2 |  53.6 |    95.6 |   99.1 |    -2.1 |   -0.5 |
+| Allen Iverson     | 2000-01 |  31.1 |   44.7 |  51.8 |    94.6 |  100   |    -2.6 |    0   |
+| Allen Iverson     | 2004-05 |  30.7 |   45.3 |  53.2 |    93.9 |  100.6 |    -2.9 |    0.3 |
+| Dominique Wilkins | 1987-88 |  30.7 |   47.4 |  53.4 |    97   |   99.2 |    -1.5 |   -0.4 |
+| Elgin Baylor      | 1959-60 |  29.6 |   42.4 |  48.9 |   103.4 |  105.7 |     1.4 |    2.6 |
+| World B. Free     | 1979-80 |  30.2 |   47.7 |  54.4 |    98.1 |  102.4 |    -0.9 |    1.3 |
+| Rick Barry        | 1974-75 |  30.6 |   46.4 |  50.9 |   101.5 |  101.3 |     0.7 |    0.7 |
+
+## Per 75 Possessions
+
+| Player            | Year    |   PTS/75 |   eFG% |   TS% |   eFG+% |   TS+% |   reFG% |   rTS% |
+|:------------------|:--------|---------:|-------:|------:|--------:|-------:|--------:|-------:|
+| Allen Iverson     | 2000-01 |     29.5 |   44.9 |  51.9 |    94.9 |  100.3 |    -2.4 |    0.1 |
+| Allen Iverson     | 2005-06 |     29.8 |   46.7 |  54.4 |    95.3 |  101.5 |    -2.3 |    0.8 |
+| Russell Westbrook | 2014-15 |     30.8 |   45.6 |  53.7 |    92   |  100.6 |    -4   |    0.3 |
+| Dominique Wilkins | 1987-88 |     30.4 |   47.4 |  53.3 |    97   |   99.1 |    -1.5 |   -0.5 |
+| Kobe Bryant       | 2010-11 |     29.7 |   48.7 |  54.9 |    97.8 |  101.4 |    -1.1 |    0.8 |
+| DeMarcus Cousins  | 2016-17 |     29.7 |   49.8 |  56.3 |    96.9 |  101.9 |    -1.6 |    1.1 |
+| Michael Jordan    | 1997-98 |     30   |   47.4 |  53.4 |    99.1 |  101.9 |    -0.4 |    1   |
+| Russell Westbrook | 2016-17 |     33.6 |   47.6 |  55.4 |    92.7 |  100.3 |    -3.8 |    0.2 |
+| Luka Dončić       | 2021-22 |     30.3 |   52.8 |  57   |    99.2 |  100.8 |    -0.4 |    0.4 |
+| Bradley Beal      | 2020-21 |     30.2 |   53   |  59.2 |    98.6 |  103.4 |    -0.8 |    2   |
+
 # Artefacts
 A complete sheet of all qualified seasons can be found at: https://docs.google.com/spreadsheets/d/1DOhIu3i5gV1NQwAZc6rbBl7qU6NhloBr/edit?usp=sharing&ouid=114071196241084372453&rtpof=true&sd=true
