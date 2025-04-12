@@ -14,7 +14,9 @@ To calculate eFG% the formula is `((PTS - FT) / 2) / FGA`
 
 To calculate TS% the formula is `(PTS) / (2 * (FGA + (0.44 * FTA)))`
 
-To calculate their relative versions, it is the player's stat itself divided by the league's average of the same stat.
+To calculate their relative versions (reFG, rTS), it is the player's stat itself minus the league's average of the same stat. Meaning a rTS% of 5 is 5 percentual points above league average TS% for the season.
+
+To calculate their adjusted versions (eFG+, TS+), it is the player's stat itself divided by the league's average of the same stat. Meaning a TS+% of 110 is 110% of the league average TS% for the season.
 
 Per Game data goes back to the 1951-52 season. Per 75 Possessions data goes back to the 1973-74 season.
 
@@ -54,6 +56,21 @@ All data belongs to Sports Reference and was fetched and used in compliance with
 |Shaquille O'Neal|1999-00|29.7|120.1|
 |Wilt Chamberlain|1964-65|34.7|119.8|
 
+### Ranked by reFG%
+
+| Player              | Year    |   PTS |   reFG% |
+|:--------------------|:--------|------:|--------:|
+| Stephen Curry       | 2015-16 |  30.1 |    12.8 |
+| Kareem Abdul-Jabbar | 1970-71 |  31.7 |    12.8 |
+| Kareem Abdul-Jabbar | 1971-72 |  34.8 |    11.9 |
+| Wilt Chamberlain    | 1965-66 |  33.5 |    10.7 |
+| Kareem Abdul-Jabbar | 1972-73 |  30.2 |     9.8 |
+| Shaquille O'Neal    | 1999-00 |  29.7 |     9.6 |
+| Wilt Chamberlain    | 1960-61 |  38.4 |     9.4 |
+| Walt Bellamy        | 1961-62 |  31.6 |     9.3 |
+| Wilt Chamberlain    | 1963-64 |  36.8 |     9.1 |
+| Bob McAdoo          | 1973-74 |  30.6 |     8.8 |
+
 ### Ranked by TS%
 
 |Player|Year|PTS|TS%|
@@ -83,6 +100,21 @@ All data belongs to Sports Reference and was fetched and used in compliance with
 |Bob McAdoo|1973-74|30.6|118.2|
 |Oscar Robertson|1966-67|30.5|118.2|
 |Jerry West|1965-66|31.3|117.6|
+
+### Ranked by rTS%
+
+| Player              | Year    |   PTS |   rTS% |
+|:--------------------|:--------|------:|-------:|
+| Stephen Curry       | 2015-16 |  30.1 |   12.8 |
+| Adrian Dantley      | 1983-84 |  30.6 |   10.9 |
+| Kareem Abdul-Jabbar | 1970-71 |  31.7 |   10.6 |
+| Kareem Abdul-Jabbar | 1971-72 |  34.8 |    9.9 |
+| Kevin Durant        | 2013-14 |  32   |    9.4 |
+| Jerry West          | 1964-65 |  31   |    9.3 |
+| Adrian Dantley      | 1981-82 |  30.3 |    9.2 |
+| Bob McAdoo          | 1973-74 |  30.6 |    9.1 |
+| Oscar Robertson     | 1963-64 |  31.4 |    9.1 |
+| Oscar Robertson     | 1966-67 |  30.5 |    9   |
 
 ## Per 75 Possessions
 
@@ -116,6 +148,21 @@ All data belongs to Sports Reference and was fetched and used in compliance with
 |Michael Jordan|1990-91|32|112.5|
 |Michael Jordan|1989-90|32|112.3|
 
+### Ranked by reFG%
+
+| Player                | Year    |   PTS/75 |   reFG% |
+|:----------------------|:--------|---------:|--------:|
+| Stephen Curry         | 2015-16 |     31.9 |    12.7 |
+| Shaquille O'Neal      | 1997-98 |     30.1 |    10.5 |
+| Nikola Jokić          | 2021-22 |     29.8 |     8.7 |
+| Shaquille O'Neal      | 1994-95 |     30   |     8.4 |
+| Karl Malone           | 1989-90 |     30.4 |     7.8 |
+| Giannis Antetokounmpo | 2023-24 |     31.2 |     7.8 |
+| Giannis Antetokounmpo | 2018-19 |     29.5 |     7.4 |
+| Stephen Curry         | 2020-21 |     33   |     6.8 |
+| Giannis Antetokounmpo | 2024-25 |     32.3 |     6.5 |
+| Michael Jordan        | 1990-91 |     32   |     6.1 |
+
 ### Ranked by TS%
 
 |Player|Year|PTS/75|TS%|
@@ -145,3 +192,21 @@ All data belongs to Sports Reference and was fetched and used in compliance with
 |Michael Jordan|1990-91|32|113.3|
 |Isaiah Thomas|2016-17|31.8|113.3|
 |Joel Embiid|2022-23|35.6|112.8|
+
+### Ranked by rTS%
+
+| Player                | Year    |   PTS/75 |   rTS% |
+|:----------------------|:--------|---------:|-------:|
+| Stephen Curry         | 2015-16 |     31.9 |   12.8 |
+| Nikola Jokić          | 2021-22 |     29.8 |    9.4 |
+| Kevin Durant          | 2013-14 |     31.4 |    9.4 |
+| Karl Malone           | 1989-90 |     30.4 |    8.9 |
+| Giannis Antetokounmpo | 2018-19 |     29.5 |    8.3 |
+| Stephen Curry         | 2020-21 |     33   |    8.3 |
+| Michael Jordan        | 1988-89 |     30   |    7.6 |
+| Joel Embiid           | 2022-23 |     35.6 |    7.5 |
+| Isaiah Thomas         | 2016-17 |     31.8 |    7.3 |
+| Michael Jordan        | 1990-91 |     32   |    7.1 |
+
+# Artefacts
+A complete sheet of all qualified seasons can be found at: https://docs.google.com/spreadsheets/d/1DOhIu3i5gV1NQwAZc6rbBl7qU6NhloBr/edit?usp=sharing&ouid=114071196241084372453&rtpof=true&sd=true
